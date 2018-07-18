@@ -11,7 +11,7 @@ body {
   text-transform: uppercase;
 
   background-color: #000000;
-  background-image: url("img/bg.jpg");
+  background-image: url("../img/bg.jpg");
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -221,7 +221,7 @@ input[type="radio"].visually-hidden {
   width: 16px;
   height: 18px;
 
-  background-image: url("img/login.svg");
+  background-image: url("../img/login.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 
@@ -293,8 +293,8 @@ input[type="radio"].visually-hidden {
 
   background-color: #f8f5f2;
   background-image:
-    url("img/line.png"),
-    url("img/pattern-light.jpg");
+    url("../img/line.png"),
+    url("../img/pattern-light.jpg");
   background-position: center, 0 0;
   background-repeat: no-repeat, repeat;
 }
@@ -574,7 +574,7 @@ input[type="radio"].visually-hidden {
   width: 12px;
   height: 12px;
 
-  background-image: url("img/cross.svg");
+  background-image: url("../img/cross.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -1333,7 +1333,7 @@ input[type="radio"].visually-hidden {
 
   background-image:
     linear-gradient(to bottom, black, transparent),
-    url("img/pattern-dark.jpg");
+    url("../img/pattern-dark.jpg");
   background-size: 10px 40px, auto;
   background-position: 0 0;
   background-repeat: repeat-x, repeat;
