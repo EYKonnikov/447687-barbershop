@@ -8,7 +8,6 @@
 ##### - Layout adaptability: no.
 ##### - Frameworks used: none.
 ##### - Cross-browser: IE9+, Chrome, Firefox, Opera, Safari 6+.
-##### - Typography: partially defined in the layout (other — at the discretion of the developer).
 ##### - Fonts used: PT Sans Narrow, (available in google.com/fonts).
 
 ## The behavior of the blocks
