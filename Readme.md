@@ -28,7 +28,3 @@
 ##### - product card: the product image is a link to the product page.
 ##### - product card: the product name is a link to the product page.
 ##### - product card: the name of the product group is a link to one of the catalog pages.
-
-### catalog-item.html:
-##### - when you click on a thumbnail, the big picture changes.
-##### - the name of the brand (manufacturer) under the product name is a reference.
