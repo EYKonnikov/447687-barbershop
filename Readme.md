@@ -1,42 +1,34 @@
-# Учебный проект «Барбершоп»
+# Project: BARBERSHOP
 
-* Студент: [Евгений Конников](https://up.htmlacademy.ru/htmlcss/20/user/447687).
 
----
+## General specifications
 
-_Не удаляйте и не обращайте внимание на файлы:_<br>
-_`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`._
+#### Layout standards: html5, css3, progressive improvement.
+#### Modular grid: defined in layout.
+#### Layout adaptability: no.
+#### Frameworks used: none.
+#### Cross-browser: IE9+, Chrome, Firefox, Opera, Safari 6+.
+#### Typography: partially defined in the layout (other — at the discretion of the developer).
+#### Fonts used: PT Sans Narrow, (available in google.com/fonts).
 
----
+## The behavior of the blocks
 
-### Памятка
+#### clicking on the "login" link opens a modal authorization window.
+#### in pagination, the active page is not a link and does not respond to hover.
+#### all buttons are black at rest, hover changes the background color.
 
-#### 1. Зарегистрируйтесь на Гитхабе
+### index.html:
+#### the background image is fixed at the top and center of the page, not the viewport (scroll hides at the top along with the content of the page), does not change its size at different widths of the viewport.
+#### the logo is a reference.
+#### news can be more than two, the text of the news is a link to a separate news page.
 
-Если у вас ещё нет аккаунта на [github.com](https://github.com/join), скорее зарегистрируйтесь.
+### catalog.html:
+#### filter (blocks "Manufacturers" and "product Groups") to make up using the form or links — at the discretion of the developer.
+#### the number of goods in the right block can be any, it should not break the page.
+#### product card: the product image is a link to the product page.
+#### product card: the product name is a link to the product page.
+#### product card: the name of the product group is a link to one of the catalog pages.
 
-#### 2. Создайте форк
-
-[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/447687-barbershop) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
-
-<img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29037894-3cff89c2-7bae-11e7-8bae-a640a044bb03.jpg">
-
-Получится вот так:
-
-<img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29037896-3dcef054-7bae-11e7-9857-babded766668.jpg">
-
-#### 3. Клонируйте репозиторий на свой компьютер
-
-Будьте внимательны: нужно клонировать свой репозиторий (форк), а не репозиторий Академии. Нажмите кнопку «Clone or download», а затем «Open in Desktop», чтобы клонировать репозиторий через программу [GitHub Desktop](https://desktop.github.com):
-
-<img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29037898-3f01b510-7bae-11e7-98fb-2bbba7236053.jpg">
-
-Программа клонирует репозиторий на ваш компьютер и подготовит всё необходимое для старта работы.
-
-#### 4. Начинайте обучение!
-
----
-
-<a href="https://htmlacademy.ru/intensive/htmlcss"><img align="left" width="50" height="50" alt="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/htmlcss/logo-for-github-2.png"></a>
-
-Репозиторий создан для обучения на интенсивном онлайн‑курсе «[Профессиональный HTML и CSS, уровень 1](https://htmlacademy.ru/intensive/htmlcss)» от [HTML Academy](https://htmlacademy.ru).
+### catalog-item.html:
+#### when you click on a thumbnail, the big picture changes.
+#### the name of the brand (manufacturer) under the product name is a reference.
