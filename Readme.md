@@ -13,6 +13,7 @@
 ## The behavior of the blocks
 
 ##### - clicking on the "login" link opens a modal authorization window.
+##### - clicking on the "Как проехать map.html" link opens a modal map window.
 ##### - in pagination, the active page is not a link and does not respond to hover.
 ##### - all buttons are black at rest, hover changes the background color.
 
