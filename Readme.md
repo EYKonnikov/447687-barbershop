@@ -23,7 +23,7 @@
 
 ### catalog.html:
 ##### - filter (blocks "Manufacturers" and "product Groups") to make up using the form or links — at the discretion of the developer.
-##### - the number of goods in the right block can be any, it should not break the page.
+##### - the number of goods in the right block can be any.
 ##### - product card: the product image is a link to the product page.
 ##### - product card: the product name is a link to the product page.
 ##### - product card: the name of the product group is a link to one of the catalog pages.
