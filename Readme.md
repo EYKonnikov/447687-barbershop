@@ -1,4 +1,4 @@
-# Project: BARBERSHOP
+# BARBERSHOP
 
 
 ## General specifications
